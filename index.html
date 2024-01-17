@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    
+    <div class="container">
+        
+        <form id="formmm">
+            <input type="text" id="name" name="name" placeholder="Ad">
+            <div class="name__message" style="display: none;"></div>
+
+            <input type="text" id="firstname" name="firstname" placeholder="Soyad">
+            <div class="firstname__message" style="display: none;"></div>
+
+            <input type="text" id="ataAdi" name="ataAdi" placeholder="Ata adi">
+            <div class="ataAdi__message" style="display: none;"></div>
+
+            <input type="email" id="email" name="email" placeholder="E-mail">
+            <div class="email__message" style="display: none;"></div>
+
+
+            <input type="number" id="number" name="number" placeholder="Mobil nomre">
+            <div class="number__message" style="display: none;"></div>
+
+            <select name="select" id="select">
+                <option value="Erize">Erize</option>
+                <option value="Teklif">Teklif</option>
+                <option value="Sikayet">Sikayet</option>
+            </select>
+
+            <textarea name="text" id="text" cols="30" rows="10" placeholder="Muraciyetiniz"></textarea>
+
+            <button type="submit" class="btn">Gonder</button>
+        </form>
+
+        
+        <div id="messageDisplay" style="display: none" >
+            <div style="text-align: center;">
+              <img class="message-img" src="" alt="Success"/>
+              <h3 class="message-title" ></h3>
+              <p class="message-content" ></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
